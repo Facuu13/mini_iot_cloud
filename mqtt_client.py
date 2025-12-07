@@ -49,10 +49,3 @@ def procesar_mensaje(data: dict) -> dict:
         "error_msg": error_msg,
     }
 
-ok = procesar_mensaje({
-    "device_id": "sensor_03",
-    "temp": 23.5,
-    "hum": 40
-})
-
-save_reading(ok)
