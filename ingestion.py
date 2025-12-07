@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 from database import save_reading
-from mqtt_client import procesar_mensaje
+from procesamiento import procesar_mensaje
 
 def handle_raw_message(payload):
     """
